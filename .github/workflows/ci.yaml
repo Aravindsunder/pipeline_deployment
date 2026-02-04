@@ -22,19 +22,19 @@ jobs:
 
       - name: install dependencies
         run: |
-          cd backend
+          cd Backend
           npm install
 
       - name: backend lint check
         run: |
-          cd backend
+          cd Backend
           npm run lint
 
         continue-on-error: true
 
       - name: backend tests
         run: |
-          cd backend
+          cd Backend
           npm test
 
         continue-on-error: true
@@ -54,18 +54,18 @@ jobs:
 
       - name: Install frontend dependencies
         run: |
-          cd frontend
+          cd cute-cumbers_frontend
           npm install
 
       - name: Run frontend lint
         run: |
-          cd frontend
+          cd cute-cumbers_frontend
           npm run lint
         continue-on-error: true
 
       - name: Build frontend
         run: |
-          cd frontend
+          cd cute-cumbers_frontend
           npm run build
 
   docker:
