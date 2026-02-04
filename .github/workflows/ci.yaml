@@ -127,4 +127,4 @@ jobs:
           git config user.name "github-actions"
           git add k8s/backend-depl.yaml k8s/frontend-depl.yaml
           git commit -m "CI: Update k8s image tags"
-          git push
+          git push origin HEAD:main -f
