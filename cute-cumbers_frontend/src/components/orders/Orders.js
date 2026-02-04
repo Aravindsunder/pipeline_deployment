@@ -17,7 +17,7 @@ export const Orders = () => {
         }
 
         const response = await fetch(
-          `${API_BASE_URL}/orders/user/${encodeURIComponent(userEmail)}`
+          `${API_BASE_URL}/orders/user/${encodeURIComponent(userEmail)}`,
         );
 
         const data = await response.json();
@@ -33,15 +33,15 @@ export const Orders = () => {
                 prevOrders.map((prevOrder) =>
                   prevOrder._id === order._id
                     ? { ...prevOrder, status: "delivered" }
-                    : prevOrder
-                )
+                    : prevOrder,
+                ),
               );
 
               const statusResponse = await fetch(
                 `${API_BASE_URL}/${order._id}/delivered`,
                 {
                   method: "PUT",
-                }
+                },
               );
 
               const data = await statusResponse.json();
