@@ -43,7 +43,7 @@ export const Payment = () => {
 
   const handleViewOrders = () => {
     setShowModal(false);
-    navigate("/orders"); // Navigate to orders page
+    navigate("/orders"); // navidates to orders page
   };
 
   return (
