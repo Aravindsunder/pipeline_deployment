@@ -1,0 +1,20 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  display: block;
+}
+
+.mycontainer {
+  background-image: url(./../../../public/images/website_image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

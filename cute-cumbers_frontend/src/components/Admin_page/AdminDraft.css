@@ -1,0 +1,174 @@
+/* General Container */
+.p-4 {
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  
+  /* Form Structure */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Inputs & Textarea */
+  .form-control,
+textarea,
+select {
+  width: 100%;
+  padding: 0.55rem 0.85rem;   /* slightly less vertical padding */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  line-height: 1.4;            /* slightly tighter line height */
+  min-height: 42px;
+  appearance: none;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+  
+  
+  .form-control:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Input Group (for price field) */
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group-text {
+    padding: 0.65rem 0.85rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+  }
+  
+  .input-group input {
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+  }
+  
+  /* Allergy Checkbox Section */
+  .allergy-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+    accent-color: #007bff;
+  }
+  
+  /* Radio Buttons */
+  .form-check-inline {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1.2rem;
+  }
+  
+  /* Error Handling */
+  .is-invalid {
+    border-color: #dc3545;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.3rem;
+  }
+  
+  /* Modal Footer Button Group */
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 576px) {
+    .modal-footer {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  
+    .form-check-inline {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  /* AdminDraft.css */
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropzone.active {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}

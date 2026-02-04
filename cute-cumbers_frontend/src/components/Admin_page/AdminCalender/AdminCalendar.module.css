@@ -1,0 +1,186 @@
+/* AdminCalendar.module.css */
+
+/* ====== Global Table Styling ====== */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.theadTh {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.tbodyTd {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
+
+.h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* ====== Toggle Button Styling ====== */
+.btnGroupBtn {
+  min-width: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* ====== Time Picker Styling ====== */
+.timePicker {
+  width: 130px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* ====== Edit Button Styling ====== */
+.btnInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ====== Modal Backdrop ====== */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+/* ====== Modal Content Box ====== */
+.modalContent {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* ====== Modal Header ====== */
+.modalHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ====== Close Button ====== */
+.modalHeaderClose {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+/* ====== Modal Table Inside Modal Body ====== */
+.modalBodyTable {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modalBodyTheadTh {
+  background-color: #f1f1f1;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.modalBodyTbodyTd {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* ====== Slot Input ====== */
+.modalBodyInputNumber {
+  text-align: center;
+  height: 38px;
+  margin: 0 5px;
+}
+
+/* ====== Modal Footer Buttons ====== */
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btnSecondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.btnSecondary:hover {
+  background-color: #5a6268;
+}
+
+.btnPrimary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btnPrimary:hover {
+  background-color: #0069d9;
+}
+
+/* ====== Responsive Fixes ====== */
+@media (max-width: 576px) {
+  .modalContent {
+    padding: 1rem;
+  }
+
+  .btnGroupBtn {
+    min-width: 80px;
+    font-size: 0.9rem;
+  }
+
+  .timePicker {
+    width: 100px;
+  }
+}
+
+.body {
+  background-color: pink !important;
+}
+
+/* AdminCalendar.module.css */
+
+/* Make the heading stand out more */
+.heading {
+  background-color: white; /* White background */
+  color: black;             /* Black text */
+  padding: 10px 20px;       /* Add some padding for spacing */
+  font-size: 1.5rem;        /* Slightly bigger font size */
+  border-radius: 8px;       /* Rounded corners */
+  text-align: center;       /* Center align the text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for better visibility */
+  margin-bottom: 20px;      /* Add some space below the heading */
+}
+

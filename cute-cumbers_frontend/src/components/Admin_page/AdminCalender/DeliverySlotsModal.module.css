@@ -1,0 +1,112 @@
+/* DeliverySlotsModal.module.css */
+
+/* ====== Modal Backdrop Styling ====== */
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+  }
+  
+  /* ====== Modal Content Styling ====== */
+  .modalContent {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  /* ====== Modal Header Styling ====== */
+  .modalHeader {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Close Button */
+  .close {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  /* ====== Modal Body Styling ====== */
+  .modalBody {
+    margin-top: 1rem;
+  }
+  
+  /* ====== Table Styling ====== */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .table td {
+    background-color: #fff;
+  }
+  
+  /* ====== Button Group Styling ====== */
+  .btnGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btnGroup input {
+    width: 60px;
+    text-align: center;
+  }
+  
+  /* ====== Footer Styling ====== */
+  .modalFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .btnSecondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  
+  .btnSecondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .btnPrimary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btnPrimary:hover {
+    background-color: #0069d9;
+  }
+
+
+  

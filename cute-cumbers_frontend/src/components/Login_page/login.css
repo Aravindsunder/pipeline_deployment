@@ -1,0 +1,16 @@
+/* .mycontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+form {
+  border-radius: 13px;
+}
+
+.mycontainer {
+  background-image: url(./../../../public/images/website_image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

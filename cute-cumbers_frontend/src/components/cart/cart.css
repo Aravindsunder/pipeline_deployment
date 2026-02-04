@@ -1,0 +1,44 @@
+.main-container {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cart-table {
+  border-collapse: unset;
+
+  min-height: fit-content;
+  height: auto;
+  margin-bottom: 0;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+th {
+  padding: 10px 20px;
+}
+
+.table-container {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+  left: -200px;
+}
+
+.checkout-container {
+  position: fixed;
+  right: 50px;
+  top: 20%;
+}
+
+.table-container img {
+  width: 75px;
+  height: 75px;
+}
