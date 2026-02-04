@@ -25,7 +25,7 @@ export const Orders = () => {
 
         setOrders(fetchedOrders);
 
-        // Set timeout to change status from "in-progress" to "delivered"
+        // sets from inprogress to delivered
         fetchedOrders.forEach((order) => {
           if (order.status === "in-progress") {
             setTimeout(async () => {
