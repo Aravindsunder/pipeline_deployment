@@ -110,6 +110,8 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{secrets.GITHUB_TOKEN}}
 
       - name: Update backend image tag
         run: |
