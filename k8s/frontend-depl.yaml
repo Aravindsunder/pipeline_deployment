@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-cont
-          image: frontend:1.0
+          image: aravinds10/frontend:REPLACED_BY_CI
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
