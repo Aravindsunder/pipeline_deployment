@@ -55,4 +55,4 @@ jobs:
           git config user.name "github-actions"
           git add k8s/
           git commit -m "chore: update image tags"
-          git push origin${{ github.ref_name }}
+          git push origin ${{ github.ref_name }}
