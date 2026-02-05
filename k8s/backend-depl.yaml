@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend-cont
-          image: aravinds10/backend:21719390391
+          image: aravinds10/backend:21719448886
           ports:
             - containerPort: 5000
           env:
