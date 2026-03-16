@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend-cont
-          image: aravinds10/frontend:23147809899
+          image: aravinds10/frontend:23147890199
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
