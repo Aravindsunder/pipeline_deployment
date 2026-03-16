@@ -3,6 +3,8 @@ name: restaurant-cd
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "k8s/**"
 
 jobs:
   build-docker:
